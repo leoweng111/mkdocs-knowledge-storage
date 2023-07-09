@@ -38,10 +38,10 @@
 ## git环境配置
 
 ### 1. 安装git，默认安装路径即可
-### 2. pycharm中设置![img_1.png](images/img_1.png)
-### 3. pycharm中登录gitee![img_2.png](images/img_2.png)
+### 2. pycharm中设置![img_1.png](../../images/img_1.png)
+### 3. pycharm中登录gitee![img_2.png](../../images/img_2.png)
 ### 4. 添加远程仓库
-![img_3.png](images/img_3.png)
+![img_3.png](../../images/img_3.png)
 ### 5. 在pycharm中打开从远程克隆的仓库（即本地仓库），即可开始开发。
 
 ## 附录
@@ -49,15 +49,15 @@
 ### 1. git基本概念的理解
 
 * git是一个分布式版本管理系统，github是git的中心服务商，作用是方便协同开发时的版本同步等。
-![img_4.png](images/img_4.png)
-![img_5.png](images/img_5.png)
-![img_6.png](images/img_6.png)
+![img_4.png](../../images/img_4.png)
+![img_5.png](../../images/img_5.png)
+![img_6.png](../../images/img_6.png)
 
 ### 2. macos系统隐藏文件的说明
-![img_7.png](images/img_7.png)
+![img_7.png](../../images/img_7.png)
 
 ### 3. git的本地结构
-![img_8.png](images/img_8.png)
+![img_8.png](../../images/img_8.png)
 * Git管理的文件分为：工作区working dictionary，版本库repository，版本库又分为暂存区stage和暂存区分支master(仓库)
 
 * 工作区>>>>暂存区>>>>仓库
