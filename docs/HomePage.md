@@ -46,7 +46,6 @@ def my_func():
 With a title:
 
 ```py title="test.py"
-import pandas as pd
 def my_func():
     # This is for test.
     print("Hello, Leo.")
@@ -55,7 +54,6 @@ def my_func():
 With a line number:
 
 ```py linenums="1" title="test.py"
-import pandas as pd
 def my_func():
     # This is for test.
     print("Hello, Leo.")
@@ -72,3 +70,9 @@ def my_func():
 For more details about emojs, visit <a \
 href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#mkdocsyml_1" \
 target="_blank" rel="noopener">the official document</a>.
+
+## MarkDown usage
+
+For more details about markdown, visit <a \
+href="https://blog.csdn.net/qq_44152807/article/details/104040104" \
+target="_blank" rel="noopener">this blog</a>.
