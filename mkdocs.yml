@@ -1,12 +1,15 @@
-site_name: My Docs
+site_name: Leo Weng
 theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - toc.integrate
+    - navigation.expand
     - navigation.top
     - navigation.path
+    # With this, we will not have the content on the right side, which is useful.
+    # - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -29,6 +32,17 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+
+nav:
+  - "markdown/HomePage.md"
+  - "markdown/development_utils/开发环境配置及开发流程.md"
+  - 操作技巧:
+    - "markdown/operation_utils/mkdocs_guide.md"
+    - "markdown/operation_utils/conda操作.md"
+    - "markdown/operation_utils/git操作.md"
+    - "markdown/operation_utils/OS快捷操作.md"
+
+
 
 extra:
   social:
