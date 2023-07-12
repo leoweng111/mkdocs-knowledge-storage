@@ -79,4 +79,11 @@
 
 * `git commit`的反向命令`git reset HEAD`，就是把仓库最新版本转移到暂存区。
 
-<img height="100" src="/Users/wenglongao/Downloads/img_1.png" width="200"/>
+## 利用别人的远程仓库开发
+1. git clone 别人的仓库到本地 repo <br>
+   注意：这一步如果无法克隆可以直接下载zip文件解压到work_repo中，接下来操作步骤相同
+2. 删除仓库中的.git等文件，重新 git init, git add .（表示add所有文件）
+3. 新建一个自己的空的远程仓库，注意不要添加任何包括README在内的文件
+4. git remote add origin "自己的远程仓库地址"
+5. git commit -m "Initial commit" 先commi，为了下一步push
+6. git push -u origin main 将本地的仓库推送到自己的空的远程仓库

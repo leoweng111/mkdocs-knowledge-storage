@@ -8,7 +8,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.path
-    # With this, we will not have the content on the right side, which is useful.
+    # With this, we will not have the content on the right side, which is useful.想`想`
     # - toc.integrate
     - search.suggest
     - search.highlight
@@ -41,9 +41,13 @@ nav:
     - "markdown/operation_utils/conda操作.md"
     - "markdown/operation_utils/git操作.md"
     - "markdown/operation_utils/OS快捷操作.md"
-
-
-
+  - 资料:
+    - "markdown/information_material/red_and_green_books.md"
+    - "markdown/information_material/useful_books.md"
+  - 学习:
+    - "markdown/knowledge/pandas_knowledge.md"
+  - daily:
+    - "markdown/daily/current_plan.md"
 extra:
   social:
     - icon: simple/gitee
