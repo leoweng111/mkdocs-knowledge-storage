@@ -22,3 +22,7 @@ SeriesGroupBy对象的每一个group操作完可以当作一个SeriesGroupBy
 ## 高级方法
 1. unstack函数 https://pythonjishu.com/pandas-dataframe-unstack/
 2. div方法
+3. applymap<br>
+将函数作用于dataframe的每一个元素 https://blog.csdn.net/fengdu78/article/details/119496112
+4. resample<br>
+将

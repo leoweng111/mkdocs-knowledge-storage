@@ -16,8 +16,7 @@ theme:
     - content.code.annotation
     - content.code.copy
     - announce.dismiss
-#plugins:
-#  - tags
+
   language: zh
   palette:
     - scheme: default
@@ -46,6 +45,8 @@ nav:
     - "markdown/information_material/useful_books.md"
   - 学习:
     - "markdown/knowledge/pandas_knowledge.md"
+    - "markdown/knowledge/Exercises_with_solutions.md"
+    - "markdown/knowledge/datetime_relevant.ipynb"
   - daily:
     - "markdown/daily/current_plan.md"
 extra:
@@ -57,6 +58,10 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
 
 markdown_extensions:
   - pymdownx.highlight:
