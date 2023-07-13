@@ -44,9 +44,9 @@ nav:
     - "markdown/information_material/red_and_green_books.md"
     - "markdown/information_material/useful_books.md"
   - 学习:
-    - "markdown/knowledge/pandas_knowledge.md"
-    - "markdown/knowledge/Exercises_with_solutions.md"
-    - "markdown/knowledge/datetime_relevant.ipynb"
+      - Python:
+        - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
+        - "markdown/knowledge/python_knowledge/datetime_relevant.ipynb"
   - daily:
     - "markdown/daily/current_plan.md"
 extra:
