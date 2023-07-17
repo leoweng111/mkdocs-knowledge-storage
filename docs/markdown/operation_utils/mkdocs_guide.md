@@ -4,6 +4,7 @@
 
 ```
 pip install mkdocs-material
+pip install mkdocs-jupyter
 ```
 
 ## 使用git创建mkdocs的本地仓库

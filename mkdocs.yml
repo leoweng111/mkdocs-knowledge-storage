@@ -34,7 +34,9 @@ theme:
 
 nav:
   - "markdown/HomePage.md"
-  - "markdown/development_utils/开发环境配置及开发流程.md"
+  - 环境配置相关:
+    - "markdown/development_utils/开发环境配置及开发流程.md"
+    - "markdown/development_utils/配置代码.md"
   - 操作技巧:
     - "markdown/operation_utils/mkdocs_guide.md"
     - "markdown/operation_utils/conda操作.md"
@@ -62,7 +64,8 @@ extra_css:
 plugins:
   - mkdocs-jupyter:
       include_source: True
-
+#  - search
+#  - pdf-export
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

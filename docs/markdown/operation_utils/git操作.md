@@ -85,5 +85,5 @@
 2. 删除仓库中的.git等文件，重新 git init, git add .（表示add所有文件）
 3. 新建一个自己的空的远程仓库，注意不要添加任何包括README在内的文件
 4. git remote add origin "自己的远程仓库地址"
-5. git commit -m "Initial commit" 先commi，为了下一步push
+5. git commit -m "Initial commit" 先commit，为了下一步push
 6. git push -u origin main 将本地的仓库推送到自己的空的远程仓库
