@@ -8,7 +8,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.path
-    # With this, we will not have the content on the right side, which is useful.想`想`
+    # With this, we will not have the content on the right side, which is useful.
     # - toc.integrate
     - search.suggest
     - search.highlight
@@ -42,15 +42,20 @@ nav:
     - "markdown/operation_utils/conda操作.md"
     - "markdown/operation_utils/git操作.md"
     - "markdown/operation_utils/OS快捷操作.md"
-  - 资料:
-    - "markdown/information_material/red_and_green_books.md"
-    - "markdown/information_material/useful_books.md"
-  - 学习:
-      - Python:
-        - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
-        - "markdown/knowledge/python_knowledge/datetime_relevant.ipynb"
+  - Python学习:
+    - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
+    - "markdown/knowledge/python_knowledge/datetime_relevant.ipynb"
+    - "markdown/knowledge/python_knowledge/visualization/matplotlib/matplotlib_relevant.ipynb"
+  - notability笔记:
+    - "markdown/knowledge/notability_notes/说明.md"
   - daily:
     - "markdown/daily/current_plan.md"
+  - 资料:
+      - "markdown/information_material/red_and_green_books.md"
+      - "markdown/information_material/useful_books.md"
+  - 链接:
+      - "markdown/links/package_documents.md"
+      - "markdown/links/useful_webs.md"
 extra:
   social:
     - icon: simple/gitee
@@ -58,14 +63,22 @@ extra:
     - icon: simple/baidu
       link: https://www.baidu.com
 
-extra_css:
-  - stylesheets/extra.css
+#extra_css:
+#  - stylesheets/extra.css
+#  - css/pdf.css
+#
+#extra_javascript:
+#  - js/pdf.js
+
+extra_templates:
+  - templates/pdf.html
 
 plugins:
+#  - mkdocs-with-pdf
+  - search
   - mkdocs-jupyter:
       include_source: True
-#  - search
-#  - pdf-export
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

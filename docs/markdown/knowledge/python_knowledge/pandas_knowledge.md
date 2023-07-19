@@ -19,11 +19,15 @@ DataFrameGroupBy对象的每一个group操作完可以当作一个DataFrame
 SeriesGroupBy对象的每一个group操作完可以当作一个SeriesGroupBy
 * 重点：理解mean，sum，median，count等方法既可以对DataFrame操作也可以对Series操作
 
-## 高级方法
+## 常用方法积累
 1. unstack函数 https://pythonjishu.com/pandas-dataframe-unstack/
 2. div方法
 3. applymap<br>
 将函数作用于dataframe的每一个元素 https://blog.csdn.net/fengdu78/article/details/119496112
 4. resample<br>
-见[datetime_relevant.ipynb](datetime_relevant.ipynb)
-5. 
+例子见[datetime_relevant.ipynb](datetime_relevant.ipynb)<br>
+resample的rule参考[这个链接](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects)
+5. `df['column'].is_unique` 返回bool值，判断column中是否有重复元素
+6. `df.sort_index(ascending=True)` 将df按照index升序排序
+7. `wine.fillna({'alcohol': 10, 'magnesium': 100}, inplace=True)` fillna可以传入一个字典
+8. 
