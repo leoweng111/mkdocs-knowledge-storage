@@ -87,3 +87,9 @@
 4. git remote add origin "自己的远程仓库地址"
 5. git commit -m "Initial commit" 先commit，为了下一步push
 6. git push -u origin main 将本地的仓库推送到自己的空的远程仓库
+
+## 在本地创建新项目并且上传远程仓库
+一般来说，利用git开发时我们会先clone远程仓库到本地，然后再在本地开发。但是有时候我们需要
+在本地新建一个项目，然后上传到gitee。这时候我们只需要：
+1. pycharm - 在work_repo路径下创建new project
+2. share project on gitee，pycharm就会自动帮我们在gitee上创建远程仓库。
