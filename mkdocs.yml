@@ -44,7 +44,8 @@ nav:
     - "markdown/operation_utils/conda操作.md"
     - "markdown/operation_utils/git操作.md"
     - "markdown/operation_utils/OS快捷操作.md"
-    - "markdown/operation_utils/Linux常用命令.md"
+    - "markdown/operation_utils/Linux基础命令.md"
+    - "markdown/operation_utils/Linux常用操作.md"
   - Python学习:
     - "markdown/knowledge/python_knowledge/python_knowledge.md"
     - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
