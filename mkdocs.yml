@@ -38,11 +38,13 @@ nav:
     - "markdown/development_utils/开发环境配置及开发流程.md"
     - "markdown/development_utils/配置代码.md"
     - "markdown/development_utils/Linux系统配置.md"
+    - "markdown/development_utils/Linux系统软件安装.md"
   - 操作技巧:
     - "markdown/operation_utils/mkdocs_guide.md"
     - "markdown/operation_utils/conda操作.md"
     - "markdown/operation_utils/git操作.md"
     - "markdown/operation_utils/OS快捷操作.md"
+    - "markdown/operation_utils/Linux常用命令.md"
   - Python学习:
     - "markdown/knowledge/python_knowledge/python_knowledge.md"
     - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
