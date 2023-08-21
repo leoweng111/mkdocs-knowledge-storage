@@ -15,7 +15,11 @@
 /Users/wenglongao/研究生学习/Linux课程资料/软件包/MacOS软件/finalshell_install.pkg
 
 ## 5. 补充：可以安装ubuntu
+Ubuntu可以通过parallel安装，很方便。
 [arm版本的官网地址](https://ubuntu.com/download/server/arm)
+[参考文章](https://blog.csdn.net/qq_24950043/article/details/123764210)<br>
+/Users/wenglongao/研究生学习/Linux课程资料/相关安装文件/ubuntu-22.04.3-live-server-arm64.iso
+
 
 
 
