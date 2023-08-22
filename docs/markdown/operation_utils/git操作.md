@@ -85,5 +85,22 @@
 2. 删除仓库中的.git等文件，重新 git init, git add .（表示add所有文件）
 3. 新建一个自己的空的远程仓库，注意不要添加任何包括README在内的文件
 4. git remote add origin "自己的远程仓库地址"
-5. git commit -m "Initial commit" 先commi，为了下一步push
+5. git commit -m "Initial commit" 先commit，为了下一步push
 6. git push -u origin main 将本地的仓库推送到自己的空的远程仓库
+
+注意，我们通常根据直接通过pycharm等图形化操作。
+
+## 在本地创建新项目并且上传远程仓库
+一般来说，利用git开发时我们会先clone远程仓库到本地，然后再在本地开发。但是有时候我们需要
+在本地新建一个项目，然后上传到gitee。这里是指我们完全没有任何代码，在pycharm中从头开发的情况。这时候我们需要：
+1. pycharm - 在work_repo路径下创建new project
+2. share project on gitee，pycharm就会自动帮我们在gitee上创建远程仓库。
+
+## 将本地项目上传到远程
+将本地已有的项目上传。
+1. 在pycharm中打开本地项目
+2. gitee中创建空的远程仓库，注意不要添加任何包括README在内的文件
+3. pycharm中manage remote，添加养成仓库地址
+4. 直接将本地的main分支 commit and push
+5. 此时因为只有一个分支，则远程仓库无需merge，直接收到了修改。此时可以通过gitee添加一个README文件进行测试
+6. pull 远程，如果发现本地多了一个README文件，那么我们就成功建立起了和远程仓库的连接。
