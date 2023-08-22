@@ -12,7 +12,7 @@
   - apt [install remove search] [-y] 软件名称
     - install 安装
     - remove 卸载
-    - search 搜索
+    - search 搜索  
     - -y，自动确认
 
 > yum 和 apt 均需要root权限
@@ -31,11 +31,11 @@
 - disable，关闭开机自启
 - enable，开启开机自启
 - restart，重启
-
+![img.png](images/img.png)
 
 
 ## 软链接
-
+![img_1.png](images/img_1.png)
 功能：创建文件、文件夹软链接（快捷方式）
 
 语法：`ln -s 参数1 参数2`
@@ -102,11 +102,12 @@
 
 
 
-手动校准时间：`ntpdate -u ntp.aliyun.com`
+通过阿里云的时间校准服务器手动校准时间：`ntpdate -u ntp.aliyun.com`
 
 
 
 ## ip地址
+![img_2.png](images/img_2.png)
 
 格式：a.b.c.d
 
@@ -119,7 +120,7 @@
 - 127.0.0.1，表示本机
 - 0.0.0.0
   - 可以表示本机
-  - 也可以表示任意IP（看使用场景）
+  - 也可以表示任意IP（看使用场景），放行ip设置为0.0.0.0，表示允许任意ip
 
 
 
@@ -135,11 +136,12 @@
 
 设置：`hostnamectl set-hostname 主机名`
 
-
-
-## 配置VMware固定IP
-
-1. 修改VMware网络，参阅PPT，图太多
+百度网站的ip地址可以被解析为www.baidu.com这个域名
+![img_3.png](images/img_3.png)  
+![img_4.png](images/img_4.png)
+## 配置Vmware固定IP
+![img_5.png](images/img_5.png)
+1. 修改Vmware网络，参阅PPT，图太多
 
 2. 设置Linux内部固定IP
 
@@ -176,9 +178,9 @@
 功能：查看进程信息
 
 语法：`ps -ef`，查看全部进程信息，可以搭配grep做过滤：`ps -ef | grep xxx`
+![img_9.png](images/img_9.png)
 
-
-
+  
 ## kill命令
 
 ![image-20221027221303037](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221303.png)
@@ -195,10 +197,13 @@
 
 功能：查看端口占用
 
-用法：`netstat -anp | grep xxx`
+用法：`netstat -anp | grep xxx`  xxx代表要查看的端口
+ 
+![img_6.png](images/img_6.png)
+![img_7.png](images/img_7.png)
 
-
-
+nmap命令也可以查看端口, e.g. nmap 127.0.0.1 查看本机占用端口
+![img_8.png](images/img_8.png)
 ## ping命令
 
 测试网络是否联通
@@ -226,13 +231,14 @@
 功能：查看主机运行状态
 
 语法：`top`，查看基础信息
-
+![img_10.png](images/img_10.png)
+负载为1可以理解为有一颗cpu很繁忙
+![img_11.png](images/img_11.png)
 
 
 可用选项：
 
 ![image-20221027221340729](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221340.png)
-
 
 
 交互式模式中，可用快捷键：
@@ -269,10 +275,15 @@
 
 ## 环境变量
 
+![img_12.png](images/img_12.png)
+![img_13.png](images/img_13.png)
+![img_14.png](images/img_14.png)
 - 临时设置：export 变量名=变量值
 - 永久设置：
   - 针对用户，设置用户HOME目录内：`.bashrc`文件
   - 针对全局，设置`/etc/profile`
+    * 在文件中添加 `export 变量名=变量值` 
+    * 输入命令`source 修改的路径名称`让修改生效
 
 
 
@@ -281,7 +292,7 @@
 记录了执行程序的搜索路径
 
 可以将自定义路径加入PATH内，实现自定义命令在任意地方均可执行的效果
-
+![img_15.png](images/img_15.png)
 
 
 ## $符号
@@ -298,24 +309,28 @@
 
 如果变量名和其它内容混淆在一起，可以使用${}
 
+![img_16.png](images/img_16.png)
 
 
 
 
 ## 压缩解压
 
+![img_19.png](images/img_19.png)
+![img_20.png](images/img_20.png)
+
 ### 压缩
 
-`tar -zcvf 压缩包 被压缩1...被压缩2...被压缩N`
-
+`tar -zcvf 压缩包 被压缩1 被压缩2 ... 被压缩N`
+* .tar格式：tar -cvf，体积不会变小
+* .tar.gz格式：tar -zcvf，体积变小明显
 - -z表示使用gzip，可以不写
-
+![img_21.png](images/img_21.png)
 
 
 `zip [-r] 参数1 参数2 参数N`
 
 ![image-20221027221906247](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221906.png)
-
 
 
 ### 解压
@@ -325,7 +340,23 @@
 - -z表示使用gzip，可以省略
 - -C，可以省略，指定要解压去的地方，不写解压到当前目录
 
+![img_22.png](images/img_22.png)
 
+`unzip`
+![img_23.png](images/img_23.png)
+
+总结
+
+![img_24.png](images/img_24.png)
+
+## 上传、下载
+
+* 通过final shell直接拖拽
+
+![img_17.png](images/img_17.png)
+* 通过rz、sz命令
+
+![img_18.png](images/img_18.png)
 
 
 
