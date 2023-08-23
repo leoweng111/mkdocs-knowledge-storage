@@ -137,7 +137,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    # 更新密钥
    rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
    
-   # 安装Mysql yum库
+   # 安装Mysql yum库，.rpm文件是Linux系统的一种软件安装包
    rpm -Uvh http://repo.mysql.com//mysql57-community-release-el7-7.noarch.rpm
    ```
 

@@ -1,0 +1,1 @@
+[heapq.heapify原理](https://mp.weixin.qq.com/s?__biz=MzU4NDc3NzEzNA==&amp;mid=2247486047&amp;idx=1&amp;sn=f6f713315d5a941525d26e96c0ec0043&amp;chksm=fd95e69ecae26f88f3f5306a9dbe6e1b6a2e6f875f5c93bf71b4bd7d6e1204d20142b3f81f1d&amp;scene=21#wechat_redirect)

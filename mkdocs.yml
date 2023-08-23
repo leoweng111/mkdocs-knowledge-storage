@@ -49,6 +49,7 @@ nav:
   - Python学习:
     - "markdown/knowledge/python_knowledge/python_knowledge.md"
     - "markdown/knowledge/python_knowledge/pandas_knowledge.md"
+    - "markdown/knowledge/python_knowledge/algorithm.md"
     - "markdown/knowledge/python_knowledge/datetime_relevant.ipynb"
     - "markdown/knowledge/python_knowledge/visualization/matplotlib/matplotlib_relevant.ipynb"
   - notability笔记:
