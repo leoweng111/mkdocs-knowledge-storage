@@ -153,7 +153,10 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    ```shell
    # yum安装Mysql
    yum -y install mysql-community-server
+   # fedora
+   yum -y install mariadb-server
    ```
+   
 
    ![image-20221012182555420](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182556.png)
 
@@ -162,6 +165,8 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    ```shell
    systemctl start mysqld		# 启动
    systemctl enable mysqld		# 开机自启
+   # fedora
+   mariadb.service
    ```
 
    > MySQL安装完成后，会自动配置为名称叫做：`mysqld`的服务，可以被systemctl所管理
