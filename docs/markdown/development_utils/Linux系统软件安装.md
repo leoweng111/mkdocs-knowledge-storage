@@ -154,6 +154,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    # yum安装Mysql
    yum -y install mysql-community-server
    # fedora
+   # fedora的官方仓库中自带mysql service，因此无需上面的导入密钥和配置仓库的步骤。
    yum -y install mariadb-server
    ```
    

@@ -26,7 +26,7 @@ SeriesGroupBy对象的每一个group操作完可以当作一个SeriesGroupBy
 3. [applymap](https://blog.csdn.net/fengdu78/article/details/119496112)
 将函数作用于dataframe的每一个元素
 4. resample
-例子见[datetime_relevant.ipynb](datetime_relevant.ipynb)<br>
+例子见[datetime_relevant.ipynb](package_notebook_demo/datetime_relevant.ipynb)<br>
 resample的rule参考[这个链接](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects)
 5. `df['column'].is_unique` 返回bool值，判断column中是否有重复元素
 6. `df.sort_index(ascending=True)` 将df按照index升序排序
