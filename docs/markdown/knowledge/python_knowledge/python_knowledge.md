@@ -3,4 +3,5 @@
 3. [defaultdict对象](https://blog.csdn.net/qq_39478403/article/details/105746952)
 4. [str.join](https://blog.csdn.net/TCatTime/article/details/85254896)
 5. [str.split](https://blog.csdn.net/TCatTime/article/details/82053259)
-6. [常见数组用法]https://www.cnblogs.com/likailiche/p/4902863.html
+6. [常见数组用法](https://www.cnblogs.com/likailiche/p/4902863.html)
+7. [深浅复制](https://baijiahao.baidu.com/s?id=1776720378688127113&wfr=spider&for=pc)
