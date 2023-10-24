@@ -53,6 +53,16 @@ nav:
     - "markdown/knowledge/python_knowledge/visualization/matplotlib/matplotlib_relevant.ipynb"
     - "markdown/knowledge/python_knowledge/algorithm/堆.ipynb"
     - "markdown/knowledge/python_knowledge/python_basic/对象引用、可变性.ipynb"
+  - 面试技巧:
+      - "markdown/interview_utils/python_algorithm_puzzles/Alternating Prime Sequence.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Delivery Management System.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Document Chunking.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Extraordinary Substrings.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Frequency Sort.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Keyboard.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Minimum Swaps.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Special Sequence.ipynb"
+      - "markdown/interview_utils/python_algorithm_puzzles/Statistic Indicators.ipynb"
   - notability笔记:
     - "markdown/knowledge/notability_notes/说明.md"
   - daily:
