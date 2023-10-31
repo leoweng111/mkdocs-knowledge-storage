@@ -92,15 +92,15 @@
 
 ## 在本地创建新项目并且上传远程仓库
 一般来说，利用git开发时我们会先clone远程仓库到本地，然后再在本地开发。但是有时候我们需要
-在本地新建一个项目，然后上传到gitee。这里是指我们完全没有任何代码，在pycharm中从头开发的情况。这时候我们需要：
-1. pycharm - 在work_repo路径下创建new project
+在本地新建一个项目，然后上传到gitee。这里是指我们完全没有任何代码，在pycharm中从头开发的情况。这时候我们需要：<br>
+1. pycharm - 在work_repo路径下创建new project<br>
 2. share project on gitee，pycharm就会自动帮我们在gitee上创建远程仓库。
 
 ## 将本地项目上传到远程
-将本地已有的项目上传。
-1. 在pycharm中打开本地项目
-2. gitee中创建空的远程仓库，注意不要添加任何包括README在内的文件
-3. pycharm中manage remote，添加养成仓库地址
-4. 直接将本地的main分支 commit and push
-5. 此时因为只有一个分支，则远程仓库无需merge，直接收到了修改。此时可以通过gitee添加一个README文件进行测试
+将本地已有的项目上传。<br>
+1. 在pycharm中打开本地项目<br>
+2. gitee中创建空的远程仓库，注意不要添加任何包括README在内的文件<br>
+3. pycharm中manage remote，添加养成仓库地址<br>
+4. 直接将本地的main分支 commit and push<br>
+5. 此时因为只有一个分支，则远程仓库无需merge，直接收到了修改。此时可以通过gitee添加一个README文件进行测试<br>
 6. pull 远程，如果发现本地多了一个README文件，那么我们就成功建立起了和远程仓库的连接。
