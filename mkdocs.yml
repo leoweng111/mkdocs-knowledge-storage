@@ -1,4 +1,6 @@
 site_name: Leo Weng
+#site_url: https://www.mkdocs.org/user-guide/configuration/#introduction
+# repo_url: https://gitee:com/weng-longao/mkdocs-knowledge-storage/
 theme:
   name: material
   features:
