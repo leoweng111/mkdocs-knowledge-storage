@@ -28,6 +28,7 @@ SeriesGroupBy对象的每一个group操作完可以当作一个SeriesGroupBy
 4. resample
 例子见[datetime_relevant.ipynb](package_notebook_demo/datetime_relevant.ipynb)<br>
 resample的rule参考[这个链接](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset-objects)
+[resample doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.resample.html)
 5. `df['column'].is_unique` 返回bool值，判断column中是否有重复元素
 6. `df.sort_index(ascending=True)` 将df按照index升序排序
 7. `wine.fillna({'alcohol': 10, 'magnesium': 100}, inplace=True)` fillna可以传入一个字典

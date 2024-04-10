@@ -1,7 +1,15 @@
-# conda等的操作
- 
-## conda操作
+<!--
+ * @Author: 翁龙傲 1404813015@qq.com
+ * @Date: 2023-07-09 18:23:52
+ * @LastEditors: 翁龙傲 1404813015@qq.com
+ * @LastEditTime: 2023-12-05 16:15:15
+ * @FilePath: /mkdocs-knowledge-storage/docs/markdown/operation_utils/conda操作.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 
+# conda等的操作
+
+## conda操作
 
 * `conda --version`  查看安装的conda的版本
 * `conda env list`  查看已经安装的环境列表
@@ -12,6 +20,9 @@
 * `conda create -n leoweng_test_1 --clone leoweng_test` 将已有环境复制一份，来创建新的环境
 * `conda env export > /Users/wenglongao/Downloads/leoweng_test.yaml` 将环境导出为yaml文件
 * `conda env create -f /Users/wenglongao/prep/code/platform-engineering/psaconda/pm_1.6.yaml`  用yaml文件创建环境
+* `conda install -p /Users/wenglongao/miniforge3/envs/lgbm package_name` 在miniforge3创建的环境中安装package
+* `/Users/wenglongao/miniforge3/bin/conda init zsh` 启动miniforge3安装的base
+* `/Users/wenglongao/anaconda3/bin/conda init zsh` 启动anaconda安装的base，两者的关键都在于看conda的Unix文件在哪里，然后初始化[anaconda与miniforge3的base切换_miniforge3和anaconda-CSDN博客](https://blog.csdn.net/lc_dreams/article/details/122119961)注意！这一步需要整行命令一起执行，执行完成后重启终端，不然无法切换。
 
 ## pip操作
 
@@ -36,4 +47,5 @@
 * ctrl + c  终止zsh命令窗口
 
 ### &emsp;&emsp;总结一下，很多操作的结构为 pip/conda(表示运用的管理器) 操作名称 --指定操作具体参数(可能可以省略），即空格 加上 -- 的结构
+
 &emsp;&emsp;如果在本地导出后想再次create new environment，因为本地已经存在导出的环境了，会报错：CondaValueError: prefix already exists: /Users/wenglongao/anaconda3/envs/leoweng_test，则我们需要编辑yaml文件，将name字段的value修改为新的环境名称，然后可通过yaml文件创建新环境。
