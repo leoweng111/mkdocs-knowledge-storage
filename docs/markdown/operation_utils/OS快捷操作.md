@@ -10,14 +10,14 @@
 
 MacOS提示文件损坏
 * `sudo spctl –master-disable`，输入密码回车，然后去设置中打开任意来源
-* `sudo xattr -r -d 拖入要打开的app`
+* `sudo xattr -cr 拖入要打开的app`
 然后去设置中点击仍要打开即可
 [参考文章](https://blog.csdn.net/2301_78028487/article/details/130550961)
 [参考文章](https://www.onlinedown.net/article/10020830.htm)
 
 # Vim相关操作
 
-* :q! 强制退出vim 
+* :q! 强制退出vim
 * :wq! 
 
 # Linux操作

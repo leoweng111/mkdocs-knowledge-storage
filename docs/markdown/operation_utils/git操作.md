@@ -16,6 +16,7 @@
 * `git reset HEAD readme.txt`  把readme.txt在暂存区的修改全部撤销
 * `git rm file`从版本库中删除文件
 * `git remote add origin https://gitee.com/weng-longao/mypackage2.git`  添加远程仓库
+* `git remote set-url origin https://gitee.com/weng-longao/micrograd.git`  更新原先的远程仓库url
 * `git push -u origin main`  把本地main分支push到远程（远程分支默认名称就为origin），第一次推送加上 -u参数
 * `git push origin main`  推送修改
 * `git remote -v`  查看git远程仓库

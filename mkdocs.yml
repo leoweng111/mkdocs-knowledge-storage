@@ -1,6 +1,6 @@
 site_name: Leo Weng
-#site_url: https://www.mkdocs.org/user-guide/configuration/#introduction
-# repo_url: https://gitee:com/weng-longao/mkdocs-knowledge-storage/
+site_url: https://www.mkdocs.org/user-guide/configuration/#introduction
+repo_url: https://gitee.com/weng-longao/mkdocs-knowledge-storage/
 theme:
   name: material
   features:
@@ -57,16 +57,41 @@ nav:
     - "markdown/knowledge/python_knowledge/visualization/matplotlib/matplotlib_relevant.ipynb"
     - "markdown/knowledge/python_knowledge/algorithm/堆.ipynb"
     - "markdown/knowledge/python_knowledge/python_basic/对象引用、可变性.ipynb"
+  - 深度学习:
+    - "markdown/knowledge/deep_learning_notebook/pytorch_basic.ipynb"
+    - "markdown/knowledge/deep_learning_notebook/loss_funcs.ipynb"
+    - "markdown/knowledge/deep_learning_notebook/CNN.ipynb"
+    - "markdown/knowledge/deep_learning_notebook/RNN.ipynb"
+    - "markdown/knowledge/deep_learning_notebook/LSTM&GRU.ipynb"
+  - 书籍文献阅读:
+      - Advanced Financial Machine Learning:
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML1.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML2.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML3.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML4.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML5.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML6.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML7.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML8.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML9.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML10.md"
+        - "markdown/knowledge/advanced_financial_machine_learning/AFML_summary.md"
   - 面试技巧:
-      - "markdown/interview_utils/python_algorithm_puzzles/Alternating Prime Sequence.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Delivery Management System.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Document Chunking.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Extraordinary Substrings.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Frequency Sort.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Keyboard.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Minimum Swaps.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Special Sequence.ipynb"
-      - "markdown/interview_utils/python_algorithm_puzzles/Statistic Indicators.ipynb"
+      - brain teasers:
+          "markdown/interview_utils/interview_puzzles/brain_teasers.md"
+      - python puzzles:
+        - "markdown/interview_utils/python_algorithm_puzzles/Alternating Prime Sequence.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Delivery Management System.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Document Chunking.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Extraordinary Substrings.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Frequency Sort.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Keyboard.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Minimum Swaps.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Special Sequence.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/Statistic Indicators.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/最多放下的长方形.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/障碍物岛屿最短路径.ipynb"
+        - "markdown/interview_utils/python_algorithm_puzzles/面试遇到的代码题.ipynb"
   - notability笔记:
     - "markdown/knowledge/notability_notes/说明.md"
   - daily:
