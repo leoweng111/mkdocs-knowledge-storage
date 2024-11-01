@@ -7,6 +7,12 @@
 * `rm test.txt`   在当前路径下删除文件
 * `pwd`  		查看当前路径
 * `cat test.txt`  查看当前路径下的指定文件内容
+* `chsh -s /bin/zsh` 将终端中使用zsh命令，重启后生效
+* `chsh -s /bin/bash` 将终端中使用bash命令，重启后生效
+* `alias | grep python` 检查是否为python设置别名，如果设置了别名，那么在终端运行python命令，就会自动调用别名
+* `unalias python` 移除python的别名
+* `source ~/.zshrc` 重新加载zsh配置文件。.zshrc
+
 
 MacOS提示文件损坏
 * `sudo spctl –master-disable`，输入密码回车，然后去设置中打开任意来源
@@ -20,4 +26,3 @@ MacOS提示文件损坏
 * :q! 强制退出vim
 * :wq! 
 
-# Linux操作

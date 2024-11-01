@@ -38,10 +38,14 @@
 * `pip --help`  获取命令帮助
 * `pip list --help`
 * `pip show --help`  根据具体命令获得帮助，可以得到pip show 之后的具体操作
+* `pip install <package-name> -i https://pypi.tuna.tsinghua.edu.cn/simple` 临时设置清华镜像源
+* `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple` 永久设置清华镜像源
+* `pip config unset global.index-url` 将pip切换为默认源
+* `pip config list` 查看pip的安装源
 
 ## 其它一些操作
 
-* `python -m ipykernel install --user --name leoweng_test --display-name "Python (leoweng_test)"`  将新环境添加到jupyter notebook的kernel，注意如果出现dquote说明引号输入成中文的了，要用英文引号””
+* `python -m ipykernel install --user --name leoweng_test --display-name "Python (leoweng_test)"`  将新环境添加到jupyter notebook的kernel，注意如果出现dquote说明引号输入成中文的了，要用英文引号””。添加新环境后可能需要重启vscode才能生效。
 * `jupyter kernelspec list`查看jupyter notebook中已经添加的kernel
 * `jupyter kernelspec remove leoweng1.2`删除指定的kernel，注意有可能需要先激活对应环境，再执行，否则有可能无法删除。
 * ctrl + c  终止zsh命令窗口

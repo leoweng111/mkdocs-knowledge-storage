@@ -278,23 +278,27 @@ nmap命令也可以查看端口, e.g. nmap 127.0.0.1 查看本机占用端口
 ![img_12.png](images/img_12.png)
 ![img_13.png](images/img_13.png)
 ![img_14.png](images/img_14.png)
+- export 用于添加环境变量
 - 临时设置：export 变量名=变量值
 - 永久设置：
-  - 针对用户，设置用户HOME目录内：`.bashrc`文件
+  - 针对用户，设置用户HOME目录内：`~/.bashrc`文件(bash) 或`~/.zshrc`文件(zsh)
   - 针对全局，设置`/etc/profile`
     * 在文件中添加 `export 变量名=变量值` 
     * 输入命令`source 修改的路径名称`让修改生效
+- 查看环境变量: echo $env_var_name
 
 
 
 ### PATH变量
+ - PATH是一个特殊且非常重要的环境变量。它定义了系统在执行命令时搜索可执行文件的目录列表。<br><br>
 
-记录了执行程序的搜索路径
+ - 可以将自定义路径加入PATH内，实现自定义命令在任意地方均可执行的效果。
 
-可以将自定义路径加入PATH内，实现自定义命令在任意地方均可执行的效果
+* 如果export PATH="~./bin:$PATH"，那么在~./bin目录下的所有可执行文件，都可以在zsh终端运行时被系统查找到
 ![img_15.png](images/img_15.png)
-
-
+- 例如，将python添加到可执行程序的搜索路径: export PATH="/Users/wenglongao/anaconda3/envs/torch/bin/python:$PATH"
+![img_25.png](images/img_25.png)
+- 注意两种export的写法的区别
 ## $符号
 
 可以取出指定的环境变量的值
