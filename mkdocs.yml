@@ -1,6 +1,5 @@
 site_name: Leo Weng
-site_url: https://www.mkdocs.org/user-guide/configuration/#introduction
-repo_url: https://github.com/leoweng111/mkdocs-knowledge-storage
+site_url: https://leoweng111.github.io/mkdocs-knowledge-storage/
 theme:
   name: material
   features:
