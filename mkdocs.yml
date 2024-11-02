@@ -1,6 +1,6 @@
 site_name: Leo Weng
 site_url: https://www.mkdocs.org/user-guide/configuration/#introduction
-repo_url: https://gitee.com/weng-longao/mkdocs-knowledge-storage/
+repo_url: https://github.com/leoweng111/mkdocs-knowledge-storage
 theme:
   name: material
   features:
@@ -150,4 +150,4 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-copyright: Copyright &copy; 2023 <a href="https://www.gitee.com/weng-longao" target="_blank" rel="noopener">Leo Weng</a>
+copyright: Copyright &copy; 2023 <a href="https://github.com/leoweng111" target="_blank" rel="noopener">Leo Weng</a>
