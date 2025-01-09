@@ -6,9 +6,9 @@
 * `git config --global user.email wlaleo@stu.xjtu.edu.cn`基本配置
 * `git config --list`  查看git的设置参数
 * `git init`  在工作区初始化当前目录，把这个目录变成Git可以管理的仓库
-* `git add`  把文件从工作区>>>>暂存区
-* `git commit`  把文件从暂存区>>>>仓库
 * `git status`  查看仓库当前的状态
+* `git add`  把文件从工作区>>>>暂存区
+* `git commit -m "Initial Commit"`  把文件从暂存区>>>>仓库。注意commit前需要先checkout到需要commit的分支上。
 * `git diff`  查看差异（具体看后文说明）
 * `git log`  查看历史提交日志
 * `git reset --hard HEAD^`  回退到上一个版本
@@ -18,7 +18,8 @@
 * `git remote add origin https://gitee.com/weng-longao/mypackage2.git`  添加远程仓库
 * `git remote set-url origin https://gitee.com/weng-longao/micrograd.git`  更新原先的远程仓库url
 * `git push -u origin main`  把本地main分支push到远程（远程分支默认名称就为origin），第一次推送加上 -u参数
-* `git push origin main`  推送修改
+* `git push origin main`  推送修改到远程main分支，其中origin是远程仓库的默认名称
+* `git push origin your-branch`  推送修改到远程的指定your-branch分支
 * `git remote -v`  查看git远程仓库
 * `git remote rm main`  删除远程仓库
 * `git clone https://gitee.com/weng-longao/gitskills.git`  克隆远程仓库，直接在工作目录下克隆，会自动创建文件夹 ~/gitskills
