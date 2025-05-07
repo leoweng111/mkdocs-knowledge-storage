@@ -35,6 +35,8 @@ theme:
 
 nav:
   - "markdown/HomePage.md"
+  - daily:
+    - "markdown/daily/current_plan.md"
   - 环境配置相关:
     - "markdown/development_utils/开发环境配置及开发流程.md"
     - "markdown/development_utils/配置代码.md"
@@ -73,17 +75,17 @@ nav:
     - "markdown/knowledge/deep_learning_notebook/LSTM&GRU.ipynb"
   - 书籍文献阅读:
       - Advanced Financial Machine Learning:
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML1.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML2.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML3.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML4.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML5.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML6.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML7.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML8.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML9.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML10.md"
-        - "markdown/knowledge/advanced_financial_machine_learning/AFML_summary.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML1.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML2.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML3.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML4.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML5.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML6.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML7.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML8.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML9.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML10.md"
+        - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML_summary.md"
   - 面试技巧:
       - brain teasers:
           "markdown/interview_utils/interview_puzzles/brain_teasers.md"
@@ -102,8 +104,6 @@ nav:
         - "markdown/interview_utils/python_algorithm_puzzles/面试遇到的代码题.ipynb"
   - notability笔记:
     - "markdown/knowledge/notability_notes/说明.md"
-  - daily:
-    - "markdown/daily/current_plan.md"
   - 资料:
       - "markdown/information_material/red_and_green_books.md"
       - "markdown/information_material/useful_books.md"
