@@ -42,6 +42,7 @@ nav:
     - "markdown/development_utils/配置代码.md"
     - "markdown/development_utils/Linux系统配置.md"
     - "markdown/development_utils/Linux系统软件安装.md"
+    - "markdown/development_utils/docker配置.md"
     - "markdown/development_utils/mongo_test.ipynb"
     - "markdown/development_utils/更新日志.md"
   - 操作技巧:
@@ -68,11 +69,12 @@ nav:
         - "markdown/knowledge/code_knowledge/algorithm/堆.ipynb"
 
   - 深度学习:
-    - "markdown/knowledge/deep_learning_notebook/pytorch_basic.ipynb"
-    - "markdown/knowledge/deep_learning_notebook/loss_funcs.ipynb"
-    - "markdown/knowledge/deep_learning_notebook/CNN.ipynb"
-    - "markdown/knowledge/deep_learning_notebook/RNN.ipynb"
-    - "markdown/knowledge/deep_learning_notebook/LSTM&GRU.ipynb"
+      - 基础模型:
+        - "markdown/knowledge/deep_learning_notebook/pytorch_basic.ipynb"
+        - "markdown/knowledge/deep_learning_notebook/loss_funcs.ipynb"
+        - "markdown/knowledge/deep_learning_notebook/CNN.ipynb"
+        - "markdown/knowledge/deep_learning_notebook/RNN.ipynb"
+        - "markdown/knowledge/deep_learning_notebook/LSTM&GRU.ipynb"
   - 书籍文献阅读:
       - Advanced Financial Machine Learning:
         - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML1.md"
@@ -86,9 +88,11 @@ nav:
         - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML9.md"
         - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML10.md"
         - "markdown/books_and_literatures/advanced_financial_machine_learning/AFML_summary.md"
+      - 纳瓦尔宝典:
+          - "markdown/books_and_literatures/The_Almanack_of_Naval_Ravikant.md"
   - 面试技巧:
       - brain teasers:
-          "markdown/interview_utils/interview_puzzles/brain_teasers.md"
+        - "markdown/interview_utils/interview_puzzles/brain_teasers.md"
       - python puzzles:
         - "markdown/interview_utils/python_algorithm_puzzles/Alternating Prime Sequence.ipynb"
         - "markdown/interview_utils/python_algorithm_puzzles/Delivery Management System.ipynb"
@@ -115,7 +119,7 @@ extra:
     - icon: simple/gitee
       link: https://www.gitee.com/weng-longao
     - icon: simple/baidu
-      link: https://www.baidu.com
+      link: https://www.bing.com
 
 #extra_css:
 #  - stylesheets/extra.css
